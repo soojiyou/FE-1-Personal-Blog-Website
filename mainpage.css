@@ -21,11 +21,26 @@ h1 {
     margin: 1rem 0;
 }
 
+h3 {
+    text-align: left;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0.4rem 0;
+    font-size: 1.2rem;
+}
+
 h4 {
     text-align: left;
     font-family: 'Ibarra Real Nova', serif;
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
     font-size: 0.8rem;
+}
+
+h6 {
+    text-align: left;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0.4rem 0;
+    font-size: 0.8rem;
+    display: inline;
 }
 
 #header {
@@ -34,6 +49,9 @@ h4 {
 
 #foot {
     grid-area: ft;
+    margin: 4rem 0 1rem 0;
+    text-align: end;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 #mainblog {
@@ -79,6 +97,20 @@ h4 {
 #mainblogpost {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    gap: 0.25rem;
+
+}
+
+.postprofileinfo {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.profile {
+    text-align: right;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0.4rem 0;
+    font-size: 0.8rem;
 }
 
 @media (min-width:1000px) {
