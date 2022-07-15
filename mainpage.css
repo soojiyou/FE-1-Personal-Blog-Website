@@ -1,0 +1,89 @@
+html {
+    background-color: aliceblue;
+    margin: 0 10%;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "hd hd hd hd   hd   hd   hd   hd   hd"
+        "main main main main main main main main main"
+        "ft ft ft ft   ft   ft   ft   ft   ft";
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 2.3rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    text-align: left;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+#header {
+    grid-area: hd;
+}
+
+#foot {
+    grid-area: ft;
+}
+
+#mainblog {
+    grid-area: main;
+}
+
+#header_img {
+    width: 60%;
+    height: 60%;
+    background-image: url(https://img.myloview.com/posters/orange-pomeranian-dog-sleeping-smile-700-119332490.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#header_img_cover {
+    width: 100%;
+    height: 30rem;
+    background-color: #6b85b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.spacebelowheader {
+    width: 100%;
+    height: 2.5rem;
+    background-color: #a8bcdb;
+    margin: 0.25rem 0;
+
+}
+
+.blogimg {
+    width: 100%;
+    height: 15rem;
+    background-image: url(https://www.rd.com/wp-content/uploads/2018/02/30_Adorable-Puppy-Pictures-that-Will-Make-You-Melt_124167640_YamabikaY.jpg?fit=700,467);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mainblogpost {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+@media (min-width:1000px) {
+    #mainblogpost {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}
