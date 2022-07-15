@@ -13,3 +13,13 @@ html {
         "main main main main main main main main main"
         "ft ft ft ft   ft   ft   ft   ft   ft";
 }
+
+
+#header_img {
+    width: 60%;
+    height: 60%;
+    background-image: url(https://img.myloview.com/posters/orange-pomeranian-dog-sleeping-smile-700-119332490.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
