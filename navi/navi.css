@@ -83,3 +83,49 @@ h9 {
     font-size: 1rem;
     display: block;
 }
+
+.authorphoto {
+    vertical-align: middle;
+    width: 14rem;
+    height: 17rem;
+    position: inherit;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.authorphotobox {
+    box-shadow: 0 4px 8px 0 #2b256e;
+    transition: 0.3s;
+}
+
+.authorinfo {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.authorbox {
+    font-family: 'Cormorant SC', serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nameschool {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialtitle {
+    display: inline;
+    font-size: 1.1rem;
+
+}
+
+.social {
+    display: inline;
+}
+
+.socialbox {
+    text-align: left;
+}
