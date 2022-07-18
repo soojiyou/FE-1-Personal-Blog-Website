@@ -43,6 +43,8 @@ h7 {
 
 }
 
+
+
 .aboutblog {
     height: 10rem;
     width: 90%;
@@ -86,9 +88,10 @@ h9 {
 
 .authorphoto {
     vertical-align: middle;
-    width: 14rem;
-    height: 17rem;
-    position: inherit;
+    width: 12rem;
+    height: 15rem;
+    position: relative;
+    top: 5%;
     justify-content: center;
     margin: 5% 0;
 }
@@ -96,6 +99,7 @@ h9 {
 .authorphotobox {
     box-shadow: 0 4px 8px 0 #2b256e;
     transition: 0.3s;
+    height: 18rem;
 }
 
 .authorinfo {
@@ -128,4 +132,51 @@ h9 {
 
 .socialbox {
     text-align: left;
+}
+
+
+@media (max-width:800px) {
+
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+            "hd hd hd hd   hd   hd   hd   hd   hd"
+            "main main main main main main main main main"
+            "sd sd sd sd sd sd sd sd sd"
+            "ft ft ft ft   ft   ft   ft   ft   ft";
+    }
+
+    #sidebar {
+        grid-area: sd;
+        font-family: 'Cormorant SC', serif;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        background-color: #a8bcdb;
+        width: 100%;
+        margin: 0;
+    }
+
+    #foot {
+        grid-area: ft;
+        padding: 1rem 0;
+        margin: 0.25rem 0;
+        text-align: end;
+        font-family: 'Ibarra Real Nova', serif;
+        background-color: #6b85b6;
+        width: 100%;
+    }
+
+
+    .authorbox {
+        font-family: 'Cormorant SC', serif;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }

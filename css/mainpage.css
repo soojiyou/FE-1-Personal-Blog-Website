@@ -1,6 +1,6 @@
-@import url(navi/navi.css);
-@import url(branchpages/page.css);
-@import url(navi/gallary.css);
+@import url(navi.css);
+@import url(page.css);
+@import url(gallary.css);
 
 html {
     background-color: aliceblue;
