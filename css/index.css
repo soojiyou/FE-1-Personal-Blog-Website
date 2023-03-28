@@ -96,34 +96,75 @@ button:hover {
 }
 
 #header_img_1 {
-    width: 45%;
-    height: 45%;
+    width: 90%;
+    height: 90%;
     background-image: url(https://www.purina.co.uk/sites/default/files/styles/ttt_image_510/public/2020-12/Pomeranian1.jpg?itok=ZgfdcjMj);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
+    /* display: flex; */
     right: -5%;
-    bottom: 15%;
+    bottom: 10%;
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* z-index: 1; */
+    border-top: 5px solid aliceblue;
+    border-left: 5px solid aliceblue;
+
 
 }
 
-#header_img_2 {
+#header_img_1_border {
     width: 50%;
-    height: 50%;
+    height: 60%;
+    left: 0;
+    bottom: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+
+#header_img_2 {
+    width: 90%;
+    height: 90%;
     background-image: url(https://img.myloview.com/posters/orange-pomeranian-dog-sleeping-smile-700-119332490.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
-    left: 0;
-    top: 15%;
-    position: relative;
-    border: 3rem solid #6b85b6;
+    /* display: flex; */
+    /* right: 5%;
+
+    top: 5%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 5px solid aliceblue;
+    border-right: 5px solid aliceblue;
 
 
+    /* z-index: 3; */
+    /* border: 1.5rem solid #6b85b6; */
+    /* margin: 3rem;
+    background-color: #6b85b6; */
+    /* padding: 1rem; */
 
 }
+
+#header_img_2_border {
+    width: 50%;
+    height: 60%;
+    left: 0;
+    top: 10%;
+    position: relative;
+    z-index: 2;
+}
+
 
 #header_img_cover {
     width: 100%;
