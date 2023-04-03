@@ -13,7 +13,7 @@ Click Demo Website or download github project and open locally.
 
 ## Features
 
-This personal blog project is a Responsive Web Design blog. 
+This personal blog project (Pomeranian Fan Blog) is a Responsive Web Design blog. 
 
 Blog main page:
 
