@@ -18,4 +18,4 @@ This personal blog project is a Responsive Web Design blog.
 
 
 ![image](https://user-images.githubusercontent.com/79179847/229445874-62f6f76f-df88-41a2-99bf-f49a4435dda9.png)
-![image](https://user-images.githubusercontent.com/79179847/229446166-315c6b65-22ca-4079-b963-27b1c326f729.png)
+![image](https://user-images.githubusercontent.com/79179847/229446490-d7c33e52-6b61-4367-bc0f-693923b6e71f.png)
