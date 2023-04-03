@@ -4,12 +4,18 @@
 https://soojiyou.github.io/FE-Personal-Blog-Website/
 
 
-##Introduction
+## Introduction
 This project is the first project of Udacity Frontend nanodegree program for utilizing my HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling.
 
-##Getting Started
+## Getting Started
 
 Click Demo Website or download github project and open locally.
+
+## Features
+
+This personal blog project is a Responsive Web Design blog. 
+
+
 
 
 
