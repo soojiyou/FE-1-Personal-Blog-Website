@@ -1,7 +1,7 @@
 # Frontend Project 1 - Personal-Blog-Website-Project
 
 ## Demo Website (github pages)
-https://soojiyou.github.io/FE-Personal-Blog-Website/
+https://soojiyou.github.io/FE-1-Personal-Blog-Website/
 
 
 ## Introduction
